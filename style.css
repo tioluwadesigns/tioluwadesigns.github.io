@@ -589,6 +589,7 @@ a:visited {
 
   .stack-one {
     flex-direction: column;
+    margin: 0 10px;
   }
 
   .stack-one-h2 {
@@ -636,10 +637,14 @@ a:visited {
   }
 
   .footer {
-    padding: 15% 0;
+    padding: 25% 0;
   }
 
-  .foot-nav-link ul li:first-child {
+  .foot-nav-link a:nth-child(3n) {
+    display: none;
+  }
+
+  .foot-social {
     display: none;
   }
 
