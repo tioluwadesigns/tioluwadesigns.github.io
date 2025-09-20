@@ -1,0 +1,654 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("PlayfairDisplay-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Regular.ttf");
+}
+
+body {
+    margin: 0 5%;
+}
+
+a:visited {
+    color: #000;
+}
+
+/* The Header that contains name of the brand and navigation links */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-username h2 {
+    font-family: "Montserrat";
+    font-size: 110%;
+}
+
+.head-username h2 span {
+    color: #d96d2b;
+}
+
+.nav-link ul {
+    font-family: "Poppins";
+}
+
+.nav-link ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link a:hover {
+    color: #d96d2b;
+    transition: color 300ms ease-in-out;
+}
+
+.nav-link button {
+    background-color: #d96d2b;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+/* The First Intro */
+.intro {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.intro-text {
+    font-size: 5rem;
+    font-family: "Montserrat";
+    opacity: .9;
+}
+
+.intro-text span {
+    font-family: "Playfair";
+}
+
+.intro-img img {
+    width: 100%;
+}
+
+/* The Random Social Links */
+.rand-soc-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rand-soc-link-one {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.rand-soc-link-one p {
+    margin: 0 5px;
+}
+
+.rand-soc-link-two img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.rand-soc-link-two img:hover {
+    transform: scale(1.2);
+    transition: transform 300ms ease-in-out;
+}
+
+.rand-soc-link-two a {
+    color: black;
+    text-decoration: none;
+    margin: 0 30px;
+    font-family: "Poppins";
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.rand-soc-link-two a:hover {
+    color: #d96d2b;
+    transition: color 300ms ease-in-out;
+}
+
+/* About Me */
+.about-me {
+    margin-top: 10%;
+}
+
+.num-list-abt {
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: -3%;
+}
+
+.abt-two {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.abt-two h2 {
+    font-size: 2rem;
+    color: #d96d2b;
+    grid-row: 1 / 4;
+    margin: 20px 100px 0 0;
+}
+
+.abt-two p {
+    font-size: 25px;
+    line-height: 1.9;
+    opacity: .8;
+}
+
+.abt-last-p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+.abt-two a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #d96d2b;
+    padding-bottom: 5px;
+    width: fit-content;
+    font-weight: 500;
+}
+
+/* My Projects */
+#project {
+    margin-top: 10%;
+}
+
+.num-list-pro {
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.pro-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+.pro-one h2 {
+    font-size: 2rem;
+    color: #d96d2b;
+}
+
+.pro-one a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #d96d2b;
+    padding-bottom: 5px;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.pro-two-one img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pro-two-one img:hover {
+    transform: scale(1.01);
+    transition: all 300ms ease-in-out;
+}
+
+.pro-two-one h2 {
+    font-family: "Montserrat";
+}
+
+.pro-two-one p {
+    color: grey;
+    font-family: "Poppins";
+}
+
+#pro-two-two {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+    margin-top: 3%;
+    background-color: #fcf7f6;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+#pro-two-two img:hover {
+    transform: scale(1.01);
+    transition: all 300ms ease-in-out;
+}
+
+.pr-temp h2 {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.pr-temp p {
+    font-family: "Poppins";
+    color: grey;
+    text-align: center;
+}
+
+.pr-temp img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* My Creative Expertise */
+.creative-exp {
+    margin: 10% -5.5%;
+    background-color: #fff7f6;
+    padding: 6%;
+}
+
+.creative-head h2 {
+    font-size: 2rem;
+    color: #d96d2b;
+    grid-row: 1 / 4;
+    margin: 10px 100px 0 0;
+}
+
+.num-list-exp {
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: -2%;
+}
+
+.creative-exp-one {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    font-family: "Poppins";
+}
+
+.info-first-p {
+    font-size: 20px;
+    line-height: 1.9;
+    opacity: .8;
+    font-weight: 500;
+    margin-bottom: 10%
+}
+
+.info-p {
+    font-size: 16px;
+    color: grey;
+}
+
+.creative-info hr {
+    margin: 30px 0;
+    border: 1px solid #ddd;
+}
+
+/* My Stack */
+.stack-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+.num-list-stack {
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.stack-one-h2 h2 {
+    font-size: 2rem;
+    color: #d96d2b;
+}
+
+.stack-one-a a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #d96d2b;
+    padding-bottom: 5px;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.stack-tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 50px;
+  margin: 30px 0;
+  font-family: "Poppins";
+}
+
+.grid-content img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.grid-content img:hover {
+  transform: scale(1.1);
+  transition: transform 300ms ease-in-out;
+}
+
+.tool p strong {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: #000;
+}
+
+.tool p {
+    color: grey;
+    font-size: 14px;
+}
+
+/* Let's Work Together */
+#work {
+    margin: 5% 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    font-family: "Poppins";
+}
+
+.work-exp h2 {
+    font-size: 2rem;
+    color: #d96d2b;
+    margin: 10px 150px 0 0;
+}
+
+.work-info p {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 8%;
+}
+
+.work-head a {
+    color: #000;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Montserrat";
+}
+
+.footer {
+    margin: 10% -5.5% 0 -5.5%;
+    background-color: #d96d2b;
+    padding: 8%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.footer-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-username {
+    font-family: "Montserrat";
+    font-size: 90%;
+}
+
+.footer ul {
+    font-family: "Poppins";
+}
+
+.foot-nav-link a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.foot-nav-link a:hover {
+    color: #b45a22;
+    transition: color 300ms ease-in-out;
+}
+
+.foot-nav-link button {
+    border: 0;
+    font-size: 15px;
+    font-family: "Poppins";
+    background-color: transparent;
+    color: #fff;
+}
+
+.foot-nav-link button:hover {
+    color: #8f4010;
+    transition: all 100ms ease-in;
+}
+
+.foot-nav-link ul li {
+    display: inline;
+}
+
+.foot-social img {
+    flex-direction: row;
+    width: 20px;
+    margin: 0 10px;
+    filter: brightness(0) invert(1);
+}
+
+.foot-social img:hover {
+    transform: scale(1.2);
+    transition: transform 300ms ease-in-out;
+}
+
+.footer-two {
+  border-top: 1px solid #fff;
+  border-width: 1.5px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Poppins";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-two p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Mobile Phone Responsiveness */
+@media (max-width: 768px){
+  .nav-link ul li:first-child {
+    display: none;
+  }
+
+  .intro-text {
+    font-size: 2.8rem;
+  }
+
+  .intro {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .rand-soc-link {
+    flex-direction: column;
+  }
+
+  .rand-soc-link-one {
+    order: 2;
+    margin: 20px 0;
+  }
+
+  .rand-soc-link-two {
+    margin-top: 15px;
+  }
+
+  .abt-two {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .abt-two h2, .pro-one h2, .creative-head h2 {
+    font-size: 1.8rem;
+  }
+
+  .abt-two p {
+    font-size: 18px;
+  }
+
+  .abt-last-p {
+    font-size: 14px;
+  }
+
+  .abt-two a {
+    font-size: 14px;
+  }
+
+  .num-list-abt {
+    margin-bottom: -8%;
+    font-size: 1.5rem;
+  }
+
+  .pro-one {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .num-list-pro {
+    margin-bottom: -10%;
+    font-size: 1.5rem;
+  }
+
+  .pro-one a {
+    font-size: 14px;
+  }
+
+  .pro-two-one img {
+    margin-top: 50px;
+  }
+
+  #pro-two-two {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pr-temp img {
+    width: 100%;
+  }
+
+  .pr-temp h2, .pro-two-one h2 {
+    font-size: 1.5rem;
+  }
+
+  .pr-temp p, .pro-two-one p {
+    font-size: 14px;
+  }
+
+  .creative-exp-one {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .creative-exp {
+    margin-top: 20%;
+  }
+
+  .num-list-exp {
+    font-size: 1.5rem;
+    margin-bottom: -7%;
+  }
+
+  .info-first-p {
+    font-size: 16px;
+  }
+
+  .info-p {
+    font-size: 15px;
+  }
+
+  .stack-one {
+    flex-direction: column;
+  }
+
+  .stack-one-h2 {
+    font-size: 1.8rem;
+  }
+
+  .num-list-stack {
+    font-size: 1.5rem;
+    margin-bottom: -8%;
+  }
+
+  .stack-one-a {
+    font-size: 14px;
+  }
+
+  .grid-content {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
+
+  .grid-content img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .tool p strong {
+    font-size: 18px;
+  }
+
+  .tool p {
+    font-size: 12px;
+    word-break: keep-all;
+  }
+
+  #work {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .work-exp h2 {
+    font-size: 1.8rem;
+  }
+
+  .work-info p {
+    font-size: 16px;
+  }
+
+  .footer {
+    padding: 15% 0;
+  }
+
+  .foot-nav-link ul li:first-child {
+    display: none;
+  }
+
+  .foot-nav-link button {
+    display: none;
+  }
+
+  .foot-username {
+    padding-left: 10px;
+  }
+
+}
